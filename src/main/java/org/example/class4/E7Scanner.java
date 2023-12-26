@@ -1,0 +1,13 @@
+package org.example.class4;
+
+import java.util.Scanner;
+
+public class E7Scanner {
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Please enter you gender M/F");
+        char gender= sc.next().charAt(0);
+        System.out.println("Your gender is "+gender);
+    }
+}
